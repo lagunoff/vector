@@ -1,24 +1,7 @@
+Cabal-Version:  3.0
 Name:           vector-stream
 Version:        0.1.0.1
--- don't forget to update the changelog file!
-License:        BSD3
-License-File:   LICENSE
-Author:         Roman Leshchinskiy <rl@cse.unsw.edu.au>
-Maintainer:     Haskell Libraries Team <libraries@haskell.org>
-                Alexey Kuleshevich <alexey@kuleshevi.ch>,
-                Aleksey Khudyakov <alexey.skladnoy@gmail.com>,
-                Andrew Lelechenko <andrew.lelechenko@gmail.com>
-Copyright:      (c) Roman Leshchinskiy 2008-2012
-                    Alexey Kuleshevich 2020-2022,
-                    Aleksey Khudyakov 2020-2022,
-                    Andrew Lelechenko 2020-2022
-Homepage:       https://github.com/haskell/vector
-Bug-Reports:    https://github.com/haskell/vector/issues
-Category:       Data, Data Structures
-Synopsis:       Efficient Streams
-Description:
-        Simple yet powerful monadic streams that are used
-        as a backbone for vector package fusion functionality.
+
 
 Tested-With:
   GHC == 8.0.2
@@ -33,7 +16,6 @@ Tested-With:
   GHC == 9.6.4
   GHC == 9.8.2
 
-Cabal-Version:  >=1.10
 Build-Type:     Simple
 
 Extra-Source-Files:
@@ -49,8 +31,8 @@ Library
   Hs-Source-Dirs:
         src
 
-  Build-Depends: base >= 4.9 && < 4.21
-               , ghc-prim >= 0.2 && < 0.12
+  Build-Depends: base
+               , ghc-prim
 
 source-repository head
   type:     git
